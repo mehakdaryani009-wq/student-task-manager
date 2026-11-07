@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task and Deadline Manager</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Task and Deadline Manager</h1>
+
+        <div class="form-box">
+            <input type="text" id="title" placeholder="Task title">
+            <input type="date" id="deadline">
+            <button id="add-button">Add Task</button>
+        </div>
+        <p id="message"></p>
+
+        <div class="tabs">
+            <button id="pending-tab">Pending</button>
+            <button id="completed-tab">Completed</button>
+            <button id="all-tab">All</button>
+        </div>
+
+        <div id="task-list"></div>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
